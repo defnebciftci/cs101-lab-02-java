@@ -1,0 +1,39 @@
+import java.awt.Graphics;
+import java.applet.Applet;
+import java.util.Scanner;
+
+/**
+ * ___Lab02a____ 
+ * @author ___Nur Çiftci____
+ * @version ___25.10.2018___
+ */ 
+public class Lab04b
+{
+   public static void main( String[] args)
+   {
+      Scanner scan = new Scanner( System.in);
+
+      // variables
+      int n;
+      int sum;
+      int value;
+
+      // program code
+      
+      n = 0;
+      sum = 0;
+      
+      while ( n < 100){
+         //System.out.println( "Enter a number: ");
+         value = scan.nextInt();
+         sum = sum + value;
+         n++;
+      }
+      
+      System.out.println( "Sum is " + sum + " and count is " + n);
+                            
+
+   }
+
+}
+

@@ -1,0 +1,7 @@
+Enter a number: 
+Enter a number: 
+Enter a number: 
+Enter a number: 
+Enter a number: 
+Enter a number: 
+Sum is 110 and count is 6
